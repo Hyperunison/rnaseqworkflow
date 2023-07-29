@@ -1,0 +1,2 @@
+"comparison"	"comparisonID"	"test"	"type"	"model"	"reducedModel"	"normalizeAllSamplesTogether"	"betaPrior"
+"NonResponder_vs_Responder"	"comp_1"	"Wald"	"DGE"	"~ condition"	""	FALSE	TRUE
