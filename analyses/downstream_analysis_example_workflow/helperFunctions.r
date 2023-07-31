@@ -471,7 +471,7 @@ createHeatmapPlotList <- function(
         #library(scales)
         #hue_pal()(2)
         names(dfDesign)
-        df <- unique(data.frame(dfDesign[,c("sample.id", "sample.group", "sample.group_color", "dataset_id", "Response")]))
+        df <- unique(data.frame(dfDesign[,c("sample.id", "sample.group", "sample.group_color", "dataset_id")]))
         head(df)
         df <- df[df$sample.id %in% colnames(mHmBase),]
                              
@@ -486,17 +486,12 @@ createHeatmapPlotList <- function(
         DatasetVec <- rainbow(length(unique(df$dataset_id)))
         names(DatasetVec) <- as.vector(unique(df$dataset_id))
         
-        # Set colors for response                     
-        ResponseVec <- scales::hue_pal()(length(unique(df$Response)))
-        names(ResponseVec) <- as.vector(unique(df$Response))
-        
         
         ha = ComplexHeatmap::HeatmapAnnotation(
             df = df2, 
             col = list(
                 Group = GroupVec,
-                Dataset = DatasetVec,
-                Response = ResponseVec
+                Dataset = DatasetVec
             )
         )
     
