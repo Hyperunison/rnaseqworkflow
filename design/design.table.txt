@@ -1,0 +1,7 @@
+"sample.id"	"sample.group"	"comp_A1"	"dataset_id"
+"NEN_treated_2"	"NEN_treated"	"1_NEN_treated"	"PRJEB23709"
+"NEN_treated_3"	"NEN_treated"	"1_NEN_treated"	"PRJEB23709"
+"NEN_treated_1"	"NEN_treated"	"1_NEN_treated"	"PRJEB23709"
+"DMSO_2"	"DMSO"	"2_DMSO"	"PRJEB23709"
+"DMSO_1"	"DMSO"	"2_DMSO"	"PRJEB23709"
+"DMSO_3"	"DMSO"	"2_DMSO"	"PRJEB23709"

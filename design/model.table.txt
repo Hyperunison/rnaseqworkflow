@@ -1,0 +1,2 @@
+"comparison"	"comparisonID"	"test"	"type"	"model"	"reducedModel"	"normalizeAllSamplesTogether"	"betaPrior"
+"NEN_treated_vs_DMSO"	"comp_A1"	"Wald"	"DGE"	"~ condition"	""	FALSE	TRUE
